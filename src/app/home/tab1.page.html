@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="center-title">
+      My Morocco
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let city of cities">
+        <ion-card (click)="openCityDetail(city.id)" [style.background-image]="'url(' + city.url + ')'">
+          <ion-card-header>
+            <!-- <ion-card-title>{{ city.name }}</ion-card-title> -->
+            
+          </ion-card-header>
+          <div class="city">{{ city.name }}</div>
+          <!-- <ion-card-content>
+            {{ city.description }}
+          </ion-card-content> -->
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

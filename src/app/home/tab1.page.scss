@@ -1,0 +1,35 @@
+.center-title {
+    text-align: center;
+  }
+  
+  ion-card {
+    height: 100%; /* Make the card stretch within the column */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensure text is readable on image */
+  }
+  
+  ion-card-title {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  ion-card-content {
+    text-align: justify;
+  }
+  
+  ion-row {
+    justify-content: space-evenly; /* Ensures equal spacing between cards */
+  }
+  
+  .city{
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bold;
+  }

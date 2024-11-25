@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Supprime l'écart par défaut */
+    padding: 0; /* Supprime tout padding interne */
+  }
+  
+  .back-button {
+    margin: 0; /* Supprime les marges du bouton */
+    align-self: flex-start; /* Aligne le bouton au début */
+  }
+  
+  ion-card {
+    margin-top: 0; /* Élimine la marge supérieure */
+  }
+  
